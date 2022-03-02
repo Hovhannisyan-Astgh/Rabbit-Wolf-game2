@@ -1,0 +1,35 @@
+<html>
+
+<head>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="gameStatus">
+        <div class="gamealert">
+            <h2 id="statusText"></h2>
+            <button id="satrtGameButton" onclick="startGame()">Start Again</button>
+        </div>
+    </div>
+
+    <div class="gamePositon">
+        <div class="gameContainer">
+            <div class="controls">
+                <button id="satrtGameButton" onclick="startGame()"> Start</button>
+                <button id="chooseButton" onclick="chooseButton()">Choose Board</button>
+                <select id="select">
+                    <option value=5>5 X 5</option>
+                    <option value=7>7 X 7</option>
+                    <option value=10>10 X 10</option>
+                </select>
+            </div>
+            
+        </div>
+    </div>
+    <script src="utils.js"></script>
+    
+    <script  src="script.js"></script>
+
+</body>
+
+</html>
